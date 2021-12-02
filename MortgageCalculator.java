@@ -7,7 +7,7 @@ public class MortgageCalculator {
        final byte PERCENT = 100;
 
        Scanner scanner = new Scanner(System.in);
-        System.out.println("Principal: ");
+        System.out.println("Principal:($1K - $1M)");
         int principal = scanner.nextInt();
 
         System.out.println("Annual Interest Rate;");
